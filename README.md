@@ -1,7 +1,7 @@
 # Q
 Q is a promise library for Java. It implements promises ("deferred objects") similar to the ones found in ECMAScript, Angular.js's $q, and [Kris Kowal's Q](https://github.com/kriskowal/q). 
 
-##Usage
+## Usage
 When you want a method to return data that does not exist yet, create a `Promise` for that data and return the promise instead. 
 The `Q` class acts as the controller for a promise object. Only the `Q` instance which created a promise may resolve or reject it. 
 
