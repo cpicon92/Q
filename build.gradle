@@ -1,0 +1,4 @@
+group 'in.waffl.q'
+version '1.0'
+apply plugin: 'java'
+sourceCompatibility = 1.8
